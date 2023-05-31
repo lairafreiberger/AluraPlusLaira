@@ -64,6 +64,7 @@ body {
     align-items: center;
     margin: 0 10em;
 }
+
 .descricao__titulo{
     font-weight: 700;
     font-size: 48px;
@@ -83,3 +84,29 @@ body {
 .container__descricao {
     padding: 2em;
 }
+
+/*SECÃO DISPOSITIVOS*/
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulos{
+    font-size: 48px;
+    color: var(--branco-principal);
+
+}
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+
